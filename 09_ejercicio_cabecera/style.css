@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4vh 10vh 4vh 10vh;
+  background-color: rgb(72, 180, 243);
+}
+
+#titulo {
+  color: white;
+}
+
+#subtitulo {
+  color: white;
+}
+
+#titles {
+  display: flex;
+  flex-direction: column;
+}
+
+#list {
+  list-style-type: none;
+  display: flex;
+}
+
+li {
+  margin: 0 1vh 0 1vh;
+  padding: 0 2vh 0 2vh;
+  color: white;
+}
